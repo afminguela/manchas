@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cómo limpio esto?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Cómo limpio esto?</h1>
+        <form id="stainForm">
+            <div class="form-group">
+                <label for="material">¿Qué se ha manchado?</label>
+                <input type="text" id="material" name="material" required placeholder="Ej: Camisa, alfombra, sofá...">
+            </div>
+            <div class="form-group">
+                <label for="stainType">¿De qué es la mancha?</label>
+                <input type="text" id="stainType" name="stainType" required placeholder="Ej: Café, vino, grasa...">
+            </div>
+            <button type="submit">Buscar solución</button>
+        </form>
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
